@@ -1,0 +1,945 @@
+/* ESTILOS GLOBALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+/* section{
+    padding: 0 2rem;
+} */
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Azeret Mono', monospace;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #1f1a1a;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #D03B3B;
+    font-size: 20px;
+}
+p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+span{
+    color: #ff0000;
+}
+/* BOTON SUS ESTILOS */
+.btnEstilos{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btnEstilos:hover{
+    border: 1px solid #000000;
+    background: #000000;
+    transition: 1s;
+}
+
+/* ESTILOS INDEX.HTML */
+
+/* Estilos Header */
+/* .header{
+    min-height: 770px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../img/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} */
+/* .tituloPrincipal h1{
+    font-size: 55px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 180px;
+} */
+/* .tituloPrincipal p{
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+    color: #ffffff;
+} */
+
+/* Estilos de navbbar */
+/* nav {
+    display: flex;
+    padding: 45px 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+nav img{
+    width: 150px;
+}
+.navbarLinks{
+    width: 80%;
+    text-align: right;
+    padding-right: 60px;
+    list-style: none;
+    font-size: 0;
+}
+.navbarLinks ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.navbarLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #00ff7f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbarLinks ul li:hover::after{
+    width: 100%;
+}
+.navbarLinks ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbarLinks ul ul{
+    position: absolute;
+    display: none;
+}
+.navbarLinks ul ul li{
+    text-align: center;
+    display: block;
+    right: 30px;
+}
+.navbarLinks ul li:hover ul{
+    display: block;
+}
+.navbarLinks ul li:hover ul li{
+    margin: 10px auto;
+} */
+
+.header nav{
+    top: 30px;
+    background: rgba(16, 19, 13, 0.2);
+    position: absolute;
+}
+/* Carousel */
+.sliderImagenes::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    z-index: 1;
+}
+.itemsCarousel{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.estilosSlider{
+    bottom: 220px;
+    z-index: 2;
+}
+.estilosSlider h5{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.estilosSlider p{
+    width: 60%;
+    margin: auto;
+    line-height: 1.9;
+    color: #ffffff;
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #ffffff!important;
+    z-index: 99999999;
+}
+/* -------------------------------------- */
+nav{
+    display: flex;
+    padding: 45px 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+nav img{
+    margin: auto;
+    width: 150px;
+}
+.headerSecundario nav{
+    background-color: transparent;
+}
+.headerSecundario nav img{
+    padding-top: 0;
+}
+.headerSecundario .navbarLinks{
+    padding-top: 20px;
+    margin: 0;
+}
+.navbarLinks{
+    margin-top: 10px;
+    list-style: none;
+    font-size: 0;
+}
+.navbarLinks ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.navbarLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #00ff7f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbarLinks ul li:hover::after{
+    width: 100%;
+}
+.navbarLinks ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbarLinks ul ul{
+    position: absolute;
+    display: none;
+}
+.navbarLinks ul ul li{
+    text-align: center;
+    display: block;
+    right: 30px;
+}
+.navbarLinks ul li:hover ul{
+    display: block;
+}
+.navbarLinks ul li:hover ul li{
+    margin: 10px auto;
+}
+
+/* SECTION - NUESTRAS SEDES */
+
+.sectionCampus{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sectionCampus h2{
+    margin-bottom: 60px;
+}
+/* .campusZona{
+    margin: 0 2px 10px 2px;
+    border-radius: 10px;
+    text-align: center;
+} */
+.campusZona img{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper h3{
+    font-size: 30px;
+}
+.wrapper h3 span{
+    display: block;
+    color: #000000;
+    font-size: 20px;
+}
+.campusZona h3{
+    text-align: center;
+}
+.campusZona p{
+    text-align: left;
+    margin: 0 30px;
+}
+/* para todos los html que ocupen la clase "columnas" */
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 3%;
+}
+
+/* SECTION NUESTROS BENEFICIOS */
+.sectionBeneficios{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sectionBeneficios h2{
+    margin-bottom: 60px;
+}
+.beneficioUni{
+    margin: 0 25px 5% 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.beneficioUni img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.beneficioUni h3{
+    text-align: center;
+}
+.beneficioUni p{
+    margin: 0 15px;
+}
+
+/* SECTION ESTUDIANTES OPINION */
+
+.sectionEstudiantes{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.testimonioEstudiante{
+    display: flex;
+    flex-basis: 44%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    text-align: left;
+    background: #84adc9a6;
+    padding: 25px;
+    cursor: pointer;
+}
+.testimonioEstudiante img{
+    width: 70px;
+    height: 70px;
+    margin: 0 20px 0 5px;
+    border-radius: 50%;
+}
+.testimonioEstudiante p{
+    text-align: center;
+    padding: 0;
+}
+.testimonioEstudiante h3{
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* SECTION-- NUEVAS CATEGORIAS-- */
+
+.nuestrasCategorias{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.nuestrasCategorias h2{
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.btnGlobal{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    transition: all 1s ease;
+}
+.btnGlobal:hover{
+    background-color: #f8f542;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    transition: all 1s ease;
+}
+/* -------FOOTER----- */
+.footer .box-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    margin: auto;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 0.5rem 0;
+    text-align: left;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 1rem;
+    text-transform: none;
+    text-decoration: none;
+}
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--green);
+}
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+.footer h4{
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
+/* ESTILOS - NOSOTROS.HTML */
+
+.headerSecundario{
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("../img/banner_nosotros.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.headerSecundario h1{
+    margin-top: 80px;
+}
+.sobreNosotros {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.nosotrosColumna{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.nosotrosColumna img {
+    width: 100%;
+}
+.nosotrosColumna h2{
+    padding-top: 0;
+    text-align: left;
+}
+.nosotrosColumna p{
+    padding: 15px 0 25px;
+}
+.btnNegro{
+    border: 1px solid #000000;
+    background: transparent;
+    color: #000000;
+    font-weight: 800;
+    font-size: 15px;
+}
+.btnNegro:hover{
+    color: #ffffff;
+    font-weight: 800;
+}
+
+/* ESTILOS - CATEGORIAS.HTML */
+
+.headerSecundario.fondoCategoria{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("../img/banner_categorias.jpg");
+}
+.cursos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.cursos h2{
+    margin: 50px auto 40px auto;
+    border: 5px dashed #168674;
+    width: 50%;
+}
+.cursos h3{
+    font-size: 50px;
+    background-color: #a52a2a;
+    color: #ffffff;
+}
+.cursosColumnas{
+    flex-basis: 31%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.cursosColumnas ul li{
+    justify-content: space-between;
+    padding: 10px 0;
+    list-style-type: none;
+    font-size: 17px;
+}
+.cursosColumnas ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.cursosColumnas:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.644);
+    border: 3px solid rgba(18, 105, 155, 0.61);
+}
+.cursosColumnas ul li a:hover{
+    text-decoration: underline;
+    padding: 0 10px;
+    background-color: rgba(18, 105, 155, 0.61);
+    color: #ffffff;
+    font-size: 19px;
+    transition: .5s;
+}
+.hoverDos ul li a:hover{
+    font-size: 18px;
+}
+/* CARRERAS */
+.carreras{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.carreras h3{
+    font-size: 50px;
+    background-color: #2a6ea5;
+    color: #ffffff;
+}
+.carreras h4{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 21px;
+}
+.carreraColumn{
+    margin: 0 25px 8% 25px;
+    border-radius: 10px;
+    text-align: left;
+}
+.carreraColumn img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.carreraColumn h3{
+    text-align: center;
+}
+
+/* ESTILOS - BLOG.HTML */
+
+.headerSecundario.fondoBlog{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("../img/blog_banner.jpg");
+}
+.contenidoBlog{
+    width: 100%;
+    padding: 60px 0;
+}
+.columnas{
+    width: 90%;
+    margin: auto;
+}
+.bloqueLeft{
+    flex-basis: 65%;
+}
+.bloqueLeft img{
+    width: 100%;
+}
+.bloqueLeft h2{
+    color: #222222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.bloqueLeft p{
+    color: #777272;
+    padding: 0;
+}
+.bloqueRigth{
+    flex-basis: 32%;
+    padding-left: 15px;
+}
+.bloqueRigth h3{
+    background: #f44336;
+    color: #ffffff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.bloqueRigth div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bloqueRigth div span{
+    color: #555555;
+    padding: 8px;
+    font-size: 15px;
+}
+
+/* ESTILOS - CONTACTO.HTML */
+.headerSecundario.fondoContacto{
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("../img/nosotros_banner.jpg");
+}
+
+/* SECTION LOCALIZACION */
+.sectionGps{
+    width: 100%;
+    margin-top: 5%;
+}
+.sectionGps h2{
+    padding-bottom: 40px;
+}
+.localizacion {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.localizacion iframe{
+    width: 80%;
+}
+/* MEDIAS QUERIES */
+@media screen and (max-width:768px) {
+    nav {
+        padding: 45px 0;
+    }
+    .navbarLinks{
+        padding-right: 0;
+    }
+    .tituloPrincipal h1{
+        margin-top: 100px;
+    }
+    .columnas{
+        flex-direction: column;
+    }
+    .campusZona{
+        flex-direction: column;
+    }
+    .campusZona img{
+        width: 250px;
+        margin: auto;
+    }
+    .wrapper h3{
+        font-size: 25px;
+    }
+    .wrapper {
+        font-size: 25px;
+    }
+    .wrapper h3 span{
+        display: block;
+        margin: -5px 0;
+        font-size: 15px;
+    }
+    /* NOSOTROS .HTML */
+    .sobreNosotros{
+        width: 85%;
+        padding-top: 0;
+    }
+    .beneficioUni img{
+        width: 290px;
+        margin: auto;
+    }
+    .box{
+        text-align: center;
+    }
+    .footer .box-container .box h3{
+        text-align: center;
+    }
+    /* CATEGORIAS .HTML */
+    .cursosColumnas {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .cursos h2{
+        width: 100%;
+    }
+    .cursos h3{
+        width: 80%;
+        font-size: 35px;
+        margin: auto;
+    }
+    .carreras{
+        width: 70%;
+    }
+    .carreras h3{
+        width: 95%;
+        font-size: 35px;
+        margin: auto;
+    }
+    .nuestrasCategorias h2{
+        padding: 5px;
+        font-size: 30px;
+    }
+    /* BLOG .HTML */
+    header .estiloTitulo h1{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .bloqueLeft{
+        width: 100%;
+        margin: auto;
+    }
+    .contenidoBlog .columnas .bloqueLeft img{
+        width: 100%;
+    }
+    .bloqueLeft h2{
+        font-size: 35px;
+    }
+    .bloqueRigth{
+        width: 100%;
+        padding-left: 0;
+    }
+    .localizacion iframe{
+        width: 85%;
+        height: 300px;
+    }
+}
+@media screen and (max-width:480px) {
+    nav{
+        flex-direction: column;
+    }
+    .box{
+        margin-right: 20px;
+    }
+    .navbarLinks{
+        width: 100%;
+        text-align: center;
+    }
+    .navbarLinks ul li{
+        margin-left: 0;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .tituloPrincipal h1{
+        font-size: 40px;
+    }
+    .sectionBeneficios{
+        width: 100%;
+    }
+    .beneficioUni{
+        margin: 0;
+    }
+    .beneficioUni img{
+        width: 270px;
+    }
+    .sectionEstudiantes{
+        width: 90%;
+    }
+    .sectionEstudiantes h2{
+        margin: 30px 0;
+    }
+    /* CATEGORIAS HTML. */
+    .nuestrasCategorias{
+        width: 100%;
+    }
+    .footer .box-container{
+        width: 100%;
+    }
+    /* NOSOTROS.HTML */
+    .sobreNosotros{
+        padding-top: 0;
+    }
+    /* CATEGORIAS HTML */
+    .cursosColumnas{
+        width: 80%;
+    }
+    .cursos h2{
+        width: 100%;
+    }
+    .cursos h3{
+        width: 90%;
+        font-size: 35px;
+        margin: auto;
+    }
+    .carreras{
+        width: 80%;
+    }
+    .carreras h3{
+        width: 90%;
+        font-size: 35px;
+        margin: auto;
+    }
+    .nuestrasCategorias h2{
+        padding: 5px;
+        font-size: 30px;
+    }
+    /* BLOG .HTML */
+    header .estiloTitulo h1{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .bloqueLeft{
+        width: 100%;
+    }
+    .contenidoBlog .columnas .bloqueLeft img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .bloqueLeft h2{
+        font-size: 30px;
+    }
+    .bloqueRigth{
+        width: 100%;
+    }
+    .bloqueRigth h3{
+        margin-left: 0;
+    }
+    .bloqueRigth div{
+        border-bottom: 1px solid #ff0000;
+    }
+    .localizacion iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:320px) {
+    nav{
+        flex-direction: column;
+    }
+    section{
+        padding: 0 0;
+    }
+    .navbarLinks{
+        width: 100%;
+        text-align: center;
+    }
+    .navbarLinks ul li{
+        margin-left: 0;
+        font-size: 11px;
+        padding: 5px;
+    }
+    .tituloPrincipal h1{
+        font-size: 30px;
+    }
+    .tituloPrincipal p{
+        font-size: 12px;
+    }
+    header .estiloTitulo h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .campusZona img{
+        width: 230px;
+    }
+    .sectionBeneficios{
+        width: 100%;
+    }
+    .beneficioUni img{
+        width: 230px;
+    }
+    /* .sectionEstudiantes{
+        width: 100%;
+    } */
+    .testimonioEstudiante{
+        flex-direction: column;
+    }
+    .testimonioEstudiante img{
+        margin: 0 auto 10px auto;
+    }
+    .nuestrasCategorias{
+        width: 90%;
+        padding: 40px 0;
+    }
+    .footer .box-container{
+        margin: 0;
+    }
+    .footer .box-container .box{
+        text-align: left;
+    }
+    .footer .box-container .box h3{
+        text-align: left;
+    }
+    /*  */
+    .sobreNosotros{
+        width: 100%;
+        padding-top: 20px;
+    }
+    /*  */
+    .cursos{
+        width: 100%;
+    }
+    .cursosColumnas{
+        width: 90%;
+    }
+    .cursos h2 {
+        width: 90%;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .cursos h3{
+        width: 70%;
+        margin: auto;
+        font-size: 30px;
+    }
+    .carreras{
+        width: 100%;
+    }
+    .carreras h3{
+        width: 70%;
+        margin: auto;
+        font-size: 30px;
+    }
+    .carreras h4{
+        font-size: 17px;
+    }
+    /* BLOG .HTML */
+    .bloqueLeft{
+        width: 100%;
+    }
+    .contenidoBlog .columnas .bloqueLeft img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .bloqueLeft h2{
+        font-size: 20px;
+    }
+    .bloqueRigth{
+        width: 100%;
+    }
+    .bloqueRigth h3{
+        margin-left: 0;
+    }
+    .bloqueRigth div{
+        border-bottom: 1px solid #ff0000;
+    }
+    .localizacion iframe{
+        width: 100%;
+        height: 350px;
+    }
+}
