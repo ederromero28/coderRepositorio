@@ -1,5 +1,4 @@
-[
-	{
+{
 		"id": 1,
 		"marca": "HP PAVILION",
 		"imagen": "https://assets.reebok.com/images/w_600,f_auto,q_auto/4576b4002f654d15952fac3d017c4db5_9366/Zapatillas_Princess_Blanco_J95362_01_standard.jpg",
@@ -62,4 +61,3 @@
 		"precio": "5397",
 		"detalles": ["8 GB RAM", "COLOR NEGRO", "1 TB DD"]
 	}
-]
