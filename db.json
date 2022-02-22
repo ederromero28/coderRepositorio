@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"marca": "HP PAVILION",
+		"imagen": "https://assets.reebok.com/images/w_600,f_auto,q_auto/4576b4002f654d15952fac3d017c4db5_9366/Zapatillas_Princess_Blanco_J95362_01_standard.jpg",
+		"precio": "5000",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 2,
+		"marca": "ACER",
+		"imagen": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/033783c5-accf-4ec1-b554-0fb198833915/metcon-7-zapatillas-de-entrenamiento-CHLK3h.png",
+		"precio": "3000",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 3,
+		"marca": "LENOVO",
+		"imagen": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/033783c5-accf-4ec1-b554-0fb198833915/metcon-7-zapatillas-de-entrenamiento-CHLK3h.png",
+		"precio": "4000",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 4,
+		"marca": "APPLE",
+		"imagen": "https://assets.reebok.com/images/w_600,f_auto,q_auto/4576b4002f654d15952fac3d017c4db5_9366/Zapatillas_Princess_Blanco_J95362_01_standard.jpg",
+		"precio": "5900",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 5,
+		"marca": "HUAWEI",
+		"imagen": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/033783c5-accf-4ec1-b554-0fb198833915/metcon-7-zapatillas-de-entrenamiento-CHLK3h.png",
+		"precio": "5769",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 6,
+		"marca": "SAMSUNG",
+		"imagen": "img/samsung.jpg",
+		"precio": "2599",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 7,
+		"marca": "LG",
+		"imagen": "img/lg.jpg",
+		"precio": "4299",
+		"detalles": ["Lorem15"]
+	},
+	{
+		"id": 8,
+		"marca": "ADVANCE",
+		"imagen": "img/advance.jpg",
+		"precio": "869",
+		"detalles": ["3 GB RAM", "COLOR NEGRO", "64 GB DD"]
+	},
+	{
+		"id": 9,
+		"marca": "DELL",
+		"imagen": "img/dell.jpg",
+		"precio": "5397",
+		"detalles": ["8 GB RAM", "COLOR NEGRO", "1 TB DD"]
+	}
+]
