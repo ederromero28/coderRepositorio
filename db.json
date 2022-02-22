@@ -43,45 +43,5 @@
       "detalles":[
          "Lorem15"
       ]
-   },
-   {
-      "id":6,
-      "marca":"SAMSUNG",
-      "imagen":"img/samsung.jpg",
-      "precio":"2599",
-      "detalles":[
-         "Lorem15"
-      ]
-   },
-   {
-      "id":7,
-      "marca":"LG",
-      "imagen":"img/lg.jpg",
-      "precio":"4299",
-      "detalles":[
-         "Lorem15"
-      ]
-   },
-   {
-      "id":8,
-      "marca":"ADVANCE",
-      "imagen":"img/advance.jpg",
-      "precio":"869",
-      "detalles":[
-         "3 GB RAM",
-         "COLOR NEGRO",
-         "64 GB DD"
-      ]
-   },
-   {
-      "id":9,
-      "marca":"DELL",
-      "imagen":"img/dell.jpg",
-      "precio":"5397",
-      "detalles":[
-         "8 GB RAM",
-         "COLOR NEGRO",
-         "1 TB DD"
-      ]
    }
 ]
